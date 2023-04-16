@@ -1,0 +1,32 @@
+{
+  "name": "errorcatchernode",
+  "version": "1.0.12",
+  "description": "basic error handling module for node basic projects",
+  "main": "./build/cjs/globaltype.js",
+  "module": "./build/esm/globaltype.js",
+  "types": "./build/esm/globaltype.d.ts",
+  "keywords": [
+    "customerrornode",
+    "nodejserrorhandler",
+    "handleerrornodejs",
+    "javascripterror",
+    "nodejserrormodule",
+    "customerrormodule",
+    "catcherror",
+    "errorhandler",
+    "customnodeerror",
+    "error"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sparkmediatech/nodeerrorcatcher.git"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json"
+  },
+  "author": "Kingsley Okoro <kingswebapp>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
