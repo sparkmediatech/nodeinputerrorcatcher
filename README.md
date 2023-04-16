@@ -1,11 +1,4 @@
-# nodeerrorcatcher
-A basic error catcher that can be used in a node.js project. It helps reduces repeated boring input error catching codes in node.js. It checks for strings validations, number validation, role based privileges, etc. 
-# customnodeerrorhandler
-Basic error handler for nodejs to check for input errors coming from user such as role privileges, string length, number, and empty space. Very easy to use
-
-# basicNodeErrorModule
-Basic error handler for nodejs project
-# easyerrormodule
+# nodeinputerrorcatcher
 A basic nodejs package to help catch input errors and return the handled error. It checks for string, number and string lenghth and user role privileges
 ## Usage
 
