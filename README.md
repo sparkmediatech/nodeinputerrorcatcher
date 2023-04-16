@@ -2,9 +2,29 @@
 A basic nodejs package to help catch input errors and return the handled error. It checks for string, number and string lenghth and user role privileges
 ## Usage
 
+## installation
+
+```typescript and javascript
+npm i nodeinputerrorhandler
+
+```
+
 ### TypeScript
 ```typescript
-import errorInstance from 'nodeinputerrorhandler';
+import {errorInstance} from 'nodeinputerrorhandler';
+
+```
+
+### javascript
+
+```javascript
+const {errorInstance} = require('nodeinputerrorhandler');
+
+```
+
+### Usage
+```typescript and javascript
+import {errorInstance} from 'nodeinputerrorhandler';
 
 
 const errorString =  errorInstance.commonGeneralError({string: ['John Doe'], number: [1, 4, 77771818]}, {role: 'admin', setRole: 'admin'});
