@@ -24,8 +24,6 @@ const {errorInstance} = require('nodeinputerrorhandler');
 
 ### Usage
 ```typescript and javascript
-import {errorInstance} from 'nodeinputerrorhandler';
-
 
 const errorString =  errorInstance.commonGeneralError({string: ['John Doe'], number: [1, 4, 77771818]}, {role: 'admin', setRole: 'admin'});
 if(errorString){
