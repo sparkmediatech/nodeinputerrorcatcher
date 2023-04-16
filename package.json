@@ -1,6 +1,6 @@
 {
   "name": "nodeinputerrorhandler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "basic error handling module for node basic projects",
   "main": "./build/cjs/globaltype.js",
   "module": "./build/esm/globaltype.js",
